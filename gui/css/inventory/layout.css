@@ -1,0 +1,106 @@
+.main {
+  height: 100%;
+  width: 100%;
+  padding: 1em;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 0.25fr;
+  grid-template-areas:
+      "table table table table table buttons"
+      "table table table table table buttons"
+      "table table table table table buttons"
+      "stats stats stats stats stats buttons";
+  gap: 1rem;
+}
+
+.tblc {
+  grid-area: table;
+}
+
+.info {
+    grid-area: stats;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 10px solid #D3D3D3;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4.7em 3.7em 7.7em 2.7em;
+}
+
+input{
+  outline: none;
+  border: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.button-container {
+  grid-area: buttons;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1em;
+}
+
+.canvas-container{
+  height: 100% !important;
+  position: relative;
+}
+
+/* Popup Window Boxes */
+.popup-container{
+  position: fixed;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  gap: 1em;
+  padding: 1em;
+
+  background-image: linear-gradient(65deg, rgba(250, 0, 205, 0.795),rgba(22, 153, 240, 0.74));
+}
+
+.popup{
+  display: none;
+  gap: 2em;
+  border: thin solid black;
+  width: clamp(100px,80vw,600px);
+  border-radius: .7em;
+  padding: 1em 0px;
+  background-color: rgba(173, 172, 172, 0.644);
+}
+
+.popup > h2 {
+  color: white;
+  background-color: black;
+  padding: 0px .5em;
+}
+
+.pop-fields{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  width: 100%;
+  padding: 1.3em;
+}
+
+.popup > div > input {
+  height: 2em;
+  background-color: whitesmoke;
+  padding: 0px 2em;
+}
+
+.popup > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popup > div > div > div {
+  width: 48%;
+  text-align: center;
+  color: black;
+  padding: .2em;
+}

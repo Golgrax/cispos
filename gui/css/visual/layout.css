@@ -1,0 +1,36 @@
+.options {
+    display: flex;
+    flex-direction: row;
+/*    flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+    padding: 2em;
+}
+
+h2 {
+    color: white;
+}
+
+.dates {
+    display: flex;
+    gap: 1em;
+    text-align: center;
+}
+
+.report-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.reports {
+    width: clamp(200px,70%,700px);
+}
+
+.reports > div {
+    background-color: white;
+}
+

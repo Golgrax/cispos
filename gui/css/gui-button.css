@@ -1,0 +1,87 @@
+.gbtn {
+  
+color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 7.5em 4.5em 8.5em 3.5em;
+    padding: 2em 1em;
+  -webkit-box-shadow: 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.247);
+  -moz-box-shadow: 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.247);
+  -ms-box-shadow: 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.247);
+  -o-box-shadow: 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.247);
+  box-shadow: 0.2em 0.2em 0.1em rgba(0, 0, 0, 0.247);
+
+  transition: ease 0.2s;
+}
+
+.gbtn:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  -moz-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  -ms-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  -o-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+}
+
+.gbtn{
+  cursor:pointer;
+}
+
+
+.cblue{
+  background-image: linear-gradient(45deg, #4267B2, #FFFFFF);
+  border: 0.8em solid #29487D; 
+}
+
+.cred{
+
+  background-image: linear-gradient(45deg, #FF0000, #FFFFFF);
+  border: 0.8em solid #B22222; 
+}
+
+.cgreen{
+
+  background-image: linear-gradient(45deg, #00FF00, #FFFFFF);
+  border: 0.8em solid #008000; 
+}
+
+.goback{
+  background-color: #4267B2; 
+  border: medium solid #FFFFFF; 
+  border-radius: 0.9em 0.9em 0.9em 0.9em;
+  padding: 0.2em;
+  text-align: center;
+}
+
+.goback:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  -moz-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  -ms-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  -o-box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+  box-shadow: 0.4em 0.4em 0.2em rgba(0, 0, 0, 0.096), 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.247);
+}
+
+.big-button {
+  display: block;
+  width: 100%; 
+  font-size: 24px; 
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.shortcut-border {
+    background-image: linear-gradient(65deg, rgb(0 189 250 / 80%), rgb(25 22 240 / 74%));
+    padding: 1em;
+    border-radius: 100em 100em 100em 100em;
+    /* transition: background 5.5s; */
+    border: 10px solid #ffffff;
+}
+
+.shortcut {
+    max-width: 110px;
+}
